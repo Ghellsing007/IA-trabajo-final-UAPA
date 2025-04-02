@@ -18,7 +18,16 @@ const App: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      content: "Hello! How can I help you today?",
+      content: `¡Hola! 👋 Bienvenido/a, soy **IATRABAJOFINALUAPA**, tu chatbot asistente 🤖.
+
+Fui desarrollado como parte del trabajo final de la asignatura **Inteligencia Artificial** en la Universidad Abierta para Adultos (UAPA).
+
+👨‍💻 Autor: **Garving Vásquez S.**  
+📘 Matrícula: **201900861**
+
+Estoy aquí para ayudarte, conversar y acompañarte en esta demostración de lo que la IA puede ofrecer.
+
+¡Empecemos! ✨`,
       sender: "bot",
       timestamp: new Date(),
     },
@@ -99,7 +108,7 @@ const App: React.FC = () => {
     <div className={`flex flex-col h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-200`}>
       {/* Header */}
       <header className="bg-white dark:bg-gray-800 shadow-sm py-4 px-6 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-gray-800 dark:text-white">WSP ChatBot</h1>
+        <h1 className="text-xl font-bold text-gray-800 dark:text-white">IA TRABAJO FINAL UAPA</h1>
         <button
           onClick={() => setDarkMode(!darkMode)}
           className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
