@@ -18,7 +18,7 @@ const App: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
-      content: `¡Hola! 👋 Bienvenido/a, soy **IATRABAJOFINALUAPA**, tu chatbot asistente 🤖.
+      content: `¡Hola! 👋 Bienvenido/a, soy **IA TRABAJO FINAL UAPA**, tu chatbot asistente 🤖.
 
 Fui desarrollado como parte del trabajo final de la asignatura **Inteligencia Artificial** en la Universidad Abierta para Adultos (UAPA).
 
