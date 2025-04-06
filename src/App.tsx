@@ -49,6 +49,9 @@ Fui desarrollado como parte del trabajo final de la asignatura **Inteligencia Ar
 👨‍💻 Autor: **Garving Vásquez S.**  
 📘 Matrícula: **201900861**
 
+👨‍💻 Autor: **Yohancy M. SANTOS A.**
+📘 Matrícula: **100033813**
+
 Puedo clasificar opiniones de clientes como positivas o negativas y ofrecerte información sobre patrones encontrados en los datos. Pregúntame algo como:  
 - "Clasifica esta opinión: 'El servicio es terrible'"  
 - "¿Cuáles son los temas comunes en las opiniones negativas?"  
